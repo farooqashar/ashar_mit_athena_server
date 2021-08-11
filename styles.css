@@ -1,0 +1,57 @@
+@keyframes mainTitle {
+  from {
+    color: red;
+  }
+  to {
+    color: white;
+  }
+  to {
+    color: blue;
+  }
+}
+@keyframes each {
+  from {
+    color: purple;
+  }
+  to {
+    color: blue;
+  }
+  to {
+    color: goldenrod;
+  }
+}
+@keyframes subt {
+  from {
+    color: red;
+  }
+  to {
+    color: yellow;
+  }
+  to {
+    color: green;
+  }
+}
+@keyframes bkgrdc {
+  from {
+    background-color: lightcyan;
+  }
+  to {
+    background-color: darkslateblue;
+  }
+  to {
+    background-color: white;
+  }
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  animation-name: bkgrdc;
+  animation-duration: 25s;
+}
+h1 {
+  color: crimson;
+  text-align: center;
+  animation-name: mainTitle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
